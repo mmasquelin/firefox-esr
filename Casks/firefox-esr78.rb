@@ -1,5 +1,5 @@
 cask 'firefox-esr78' do
-    version '78.0.1'
+    version '78.0.2'
     sha256 '4e39f7b7ccf221f0ffbc06849abd8b328a170cc7a8bf7c456f823c7095b41dde'
     
     # mozilla.net was verified as official when first introduced to the cask
@@ -12,6 +12,7 @@ cask 'firefox-esr78' do
     zap trash: [
                   '~/Library/Application Support/Firefox',
                   '~/Library/Caches/Firefox',
+                  '~/Library/Preferences/org.mozilla.firefox.plist'
                 ]
   end
   
