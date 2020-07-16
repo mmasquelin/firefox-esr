@@ -7,8 +7,6 @@ cask 'firefox-esr78' do
     name 'Mozilla Firefox Extended Support Release'
     homepage 'https://www.mozilla.org/en-US/firefox/enterprise/'
   
-    license :mpl
-  
     app 'Firefox.app'
   
     zap trash: [
